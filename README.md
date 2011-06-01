@@ -20,6 +20,10 @@ Installation & Usage
 
         $ sudo gem install fog
 
+    Currently requires [this branch of
+    Fog](https://github.com/fcheung/fog/tree/cloudwatch) that includes full
+    support for the AWS CloudWatch API.
+
 2.  Install puppet-cloudwatch as a module in your Puppet master's module
     path.
 
